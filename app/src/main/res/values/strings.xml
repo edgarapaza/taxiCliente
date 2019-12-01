@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Taxi Cliente</string>
+    <string name="action_sign_in_short">Label</string>
+    <string name="msg_token_fmt">uno</string>
+</resources>
