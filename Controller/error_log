@@ -1,0 +1,18 @@
+[19-Feb-2020 18:17:47 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'usuario'@'localhost' (using password: YES) in /home/digisjjk/public_html/cliente/Model/Conexion.php on line 10
+[19-Feb-2020 18:17:47 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/digisjjk/public_html/cliente/Model/Conexion.php on line 13
+[19-Feb-2020 18:18:09 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'usuario'@'localhost' (using password: YES) in /home/digisjjk/public_html/cliente/Model/Conexion.php on line 10
+[19-Feb-2020 18:18:09 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/digisjjk/public_html/cliente/Model/Conexion.php on line 13
+[19-Feb-2020 18:20:19 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'usuario'@'localhost' (using password: YES) in /home/digisjjk/public_html/cliente/Model/Conexion.php on line 10
+[19-Feb-2020 18:20:19 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/digisjjk/public_html/cliente/Model/Conexion.php on line 13
+[03-Mar-2020 21:49:07 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 16
+[03-Mar-2020 21:54:33 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 16
+[05-Mar-2020 08:17:18 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 16
+[07-Mar-2020 19:03:33 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 16
+[09-Mar-2020 15:56:01 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 16
+[09-Mar-2020 15:57:55 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 16
+[09-Mar-2020 16:03:41 America/New_York] PHP Notice:  Undefined index: cliente in /home/digisjjk/public_html/cliente/Controller/wsPedirMovilidadRegistro.php on line 15
+[09-Mar-2020 16:07:09 America/New_York] PHP Notice:  Undefined variable: nombreCliente in /home/digisjjk/public_html/cliente/Model/pedido.model.php on line 28
+[09-Mar-2020 17:14:07 America/New_York] PHP Notice:  Undefined variable: nombreCliente in /home/digisjjk/public_html/cliente/Model/pedido.model.php on line 28
+[10-Mar-2020 02:32:16 America/New_York] PHP Notice:  Undefined variable: nombreCliente in /home/digisjjk/public_html/cliente/Model/pedido.model.php on line 28
+[14-Mar-2020 09:52:43 America/New_York] PHP Notice:  Undefined variable: nombreCliente in /home/digisjjk/public_html/cliente/Model/pedido.model.php on line 28
+[16-Mar-2020 09:03:16 America/New_York] PHP Notice:  Undefined variable: nombreCliente in /home/digisjjk/public_html/cliente/Model/pedido.model.php on line 28

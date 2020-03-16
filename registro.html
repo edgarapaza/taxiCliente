@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Taxi Seguro</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="css/registro.css">
+  
+</head>
+<body>
+
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper">
+      <a id="logo-container" href="index.html" class="brand-logo">
+        <img src="images/logo.png" alt="Yatzil" class="logo" width="">
+      </a>
+           
+    </div>
+  </nav>
+
+  <div class="" id="index-banner">
+    
+
+      <div id="message"> </div>
+      <form class="login-form" id="create-account-form" action="./Controller/registrocliente.controller.php" method="post">
+      <h4>Registro de nuevos clientes</h4>
+      <br>
+        <div class="">
+          <div class="input">
+            
+            <input name="nombre" id="nombre" placeholder="Nombre(s)"  type="text" required>
+          </div>
+        </div>
+        <div class="">
+          <div class="input">
+            
+            <input name="apellidos" id="apellidos" type="text"  placeholder="Apellidos" required>
+          </div>
+        </div>
+        <div class="">
+          <div class="input">
+            
+            <input name="telefono" id="telefono" placeholder="Telefono"  type="text" required>
+          </div>
+          <div class="input">
+            
+            <input name="correo" id="correo" type="email"  placeholder="Correo electronico" >
+          </div>
+        </div>
+        <div class="">
+          <div class="input">
+            
+            <input name="dni" id="dni" placeholder="Numero de DNI"  type="number" minlength="8" maxlength="8" required>
+          </div>
+          <div class="input">
+            
+            <input name="ciudad" id="ciudad" type="text"  placeholder="Ciudad" >
+          </div>
+        </div>
+        <div class="">
+          <div class="input">
+            
+            <input name="passwd1" id="passwd1" type="password"  placeholder="Password" required>
+          </div>
+          <div class="input">
+            
+            <input name="passwd2" id="passwd2" type="password"  placeholder="Repetir Password" required>
+          </div>
+        </div>
+        
+        <div class="">
+            
+                <button type="submit" id="btnGuardar1" name="btnGuardar" class="btn">Registrarse</button>
+            
+        </div>
+        
+      </form>
+    
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+  <script src="js/init.js"></script>
+  <script src="js/acciones.js"></script>
+
+  </body>
+</html>

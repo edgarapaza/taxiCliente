@@ -1,0 +1,39 @@
+#contenedor{
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 12px;
+	-moz-border-radius:12px;
+	-o-border-radius:12px;
+	-webkit-border-radius:12px;
+}
+
+#datos-chat{
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid silver;
+	font-weight: bold;
+}
+
+#chat-form
+{
+	background-color: #fff;
+	bottom: 0;
+	position: fixed;
+	
+}
+
+#caja-texto{
+	width: 100%;
+	border: 1px solid gray;
+	-moz-border-radius:5px;
+	-o-border-radius:12px;
+	-webkit-border-radius:12px;	
+}
+
+input{
+	position: relative;
+	margin-bottom: 3px;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Taxi Seguro</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
+      <img src="images/logo_yatzil.png" alt="Yatzil" class="responsive-img" width="80">
+    </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Options</a></li>
+      </ul>
+
+      <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="images/office.jpg">
+          </div>
+          <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+          <a href="#name"><span class="white-text name">Carlos Castro</span></a>
+          <a href="#email"><span class="white-text email">Movil 34 - Taxi Seguro</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>cloud</a></li>
+        <li><a href="#!">Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Sub Link</a></li>
+        <li><a class="waves-effect" href="#!">Link</a></li>
+      </ul>
+     
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+    
+        <form class="col s12">
+          <div class="row">
+            
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">security</i>
+              <input id="telefono" type="text" class="validate">
+              <label for="telefono">Telefono</label>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">security</i>
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 center">
+              
+              <div class="input-field inline">
+                <button type="button" class="btn">Ingresar</button>
+                <br>
+                o
+                <br>
+                <a href="#" title="">Registrarse</a>
+                <br>
+                <a href="#" title="">Ingreso</a>
+              </div>
+            </div>
+          </div>
+        </form>
+    </div>
+  </div>
+
+
+  <style>
+    footer{
+      bottom: 0;
+      position: fixed;
+      width: 100%;
+    }
+  </style>
+
+  <footer class="page-footer red darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          Ingreso Taxi Seguro
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script>
+    $(document).ready(function(){
+       $('.sidenav').sidenav();
+    });
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/conductor.css">
+	<title>Registo Conductor</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			
+		</div>
+		<div class="contenido">
+			<h2>Registro de Conductor</h2>
+			<form action="../Controller/conductorRegistro.php" method="post">
+				<label for="idconductor">idconductor:</label>
+				<input type="text" name="idconductor" id="idconductor" placeholder="idconductor">
+				<label for="Nombres">Nombres:</label>
+				<input type="text" name="Nombres" id="Nombres" placeholder="Nombres">
+				<label for="Apellidos">Apellidos:</label>
+				<input type="text" name="Apellidos" id="Apellidos" placeholder="Apellidos">
+				<label for="DNI">DNI:</label>
+				<input type="text" name="DNI" id="DNI" placeholder="DNI">
+				<label for="Telefono">Telefono:</label>
+				<input type="text" name="Telefono" id="Telefono" placeholder="Telefono">
+				<label for="E-mail">E-mail:</label>
+				<input type="email" name="email" id="E-mail" placeholder="E-mail">
+				<label for="Direccion">Direccion:</label>
+				<input type="text" name="Direccion" id="Direccion" placeholder="Direccion">
+				<label for="NumLicencia">Numero de Licencia:</label>
+				<input type="text" name="NumLicencia" id="NumLicencia" placeholder="NumLicencia">
+				<label for="FechaNacimiento">Fecha de Nacimiento:</label>
+				<input type="date" name="FechaNacimiento" id="FechaNacimiento" placeholder="FechaNacimiento">
+				<label for="Foto">Foto:</label>
+				<input type="file" name="Foto" id="Foto" placeholder="Foto">
+
+				<button type="submit">Guardar</button>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>
